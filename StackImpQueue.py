@@ -29,3 +29,4 @@ s.push(20)
 s.push(30)
 print(s.pop())  # 30
 print(s.top())  # 20
+
