@@ -6,7 +6,6 @@ def generate_pascals_triangle(n):
             triangle[i][j] = triangle[i-1][j-1] + triangle[i-1][j]
 
     for row in triangle:
-        print(" ".join(map(str, row)).center(n*3))  # Formatting for alignment
+        print(" ".join(map(str, row)).center(n*3))  
 
-# Example usage
 generate_pascals_triangle(5)

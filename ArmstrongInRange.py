@@ -5,6 +5,5 @@ def is_armstrong(num):
 def armstrong_numbers_in_range(start, end):
     return [num for num in range(start, end + 1) if is_armstrong(num) and num>9]
 
-# Example usage
 print(armstrong_numbers_in_range(1, 500))  
-# Output: [1, 153, 370, 371, 407]
+#[153, 370, 371, 407]
